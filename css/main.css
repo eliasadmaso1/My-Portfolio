@@ -250,12 +250,19 @@ main {
     grid-template-columns: repeat(3, 1fr); } 
     .about-info .job-1 {
       width: 322%;   }
+
       
   }
 
 
 
+
+
 @media screen and (max-width: 768px) {
+
+  .text-secondary {
+    color: #eece1a;
+  font-size: 54px; }
   main {
     align-items: center;
     text-align: center; }
@@ -288,6 +295,12 @@ main {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
+  .menu-branding .portrait {
+    width: 230px;
+    height: 200px;
+    background: url("../img/mobile.png");
+    border-radius: 50%;
+    border: solid 3px #eece1a; }
   main {
     padding: 2rem; }
     main #home h1 {
@@ -305,6 +318,4 @@ main {
 
     }
 
-    .job-job-1 span{
-      
-    }
+   
