@@ -299,10 +299,7 @@ main {
     }
 
 @media screen and (max-width: 500px) {
-  .img-div img{
-    width: 332px;
-    margin-right: 35px;
-  }
+ 
   .menu-branding .portrait {
     width: 230px;
     height: 200px;
