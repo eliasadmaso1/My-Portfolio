@@ -297,6 +297,19 @@ main {
     .img-div img{
       width: 600px;
     }
+    .job-job-1 h3{
+      width: 255px;
+      margin-bottom: 25px;
+      color: #eece1a;
+      margin-top: 15px;
+
+    }
+    .job-job-1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
 
 @media screen and (max-width: 500px) {
  
@@ -317,10 +330,17 @@ main {
     grid-template-columns: 1fr; } }
 
     .job-job-1 h3{
-      border-bottom: solid 1px white;
       width: 255px;
       margin-bottom: 25px;
+      color: #eece1a;
+      margin-top: 15px;
 
     }
-
+    .job-job-1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  
    
