@@ -182,10 +182,17 @@ main {
     border-bottom: #eece1a 5px solid; }
    /*  width: 340%; 
     width: 322%; */
+    .job-job-1{
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      
+    }
 
 .projects {
   display: grid;
-  grid-gap: 0.7rem;
+  flex-direction: column;
+  grid-gap: 3rem;
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
@@ -299,12 +306,16 @@ main {
     grid-template-columns: 1fr; } }
 
     .job-job-1 h3{
-      border-bottom: solid 1px white;
       width: 255px;
       margin-bottom: 25px;
+      color: #eece1a;
+      margin-top: 15px;
 
     }
 
-    .job-job-1 span{
+    .job-job-1{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
       
     }
