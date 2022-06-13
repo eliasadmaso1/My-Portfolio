@@ -188,6 +188,13 @@ main {
       flex-direction: column;
       
     }
+    .job-job-1 h3{
+      width: 255px;
+      margin-bottom: 25px;
+      color: #eece1a;
+      margin-top: 15px;
+
+    }
 
 .projects {
   display: grid;
@@ -285,9 +292,10 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/‏‏a5.jpeg");
-      width: 150px;
-      height: 150px; }
+      background: url("../img/elias.png");
+      width: 250px;
+      height: 250px;
+     }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1';
     grid-template-columns: 1fr; }
@@ -303,8 +311,7 @@ main {
       margin-top: 1rem;
       font-size: 5rem; }
   .projects {
-    grid-template-columns: 1fr; } }
-
+    grid-template-columns: 1fr; }
     .job-job-1 h3{
       width: 255px;
       margin-bottom: 25px;
@@ -318,4 +325,8 @@ main {
       align-items: center;
       flex-direction: column;
       
-    }
+    } }
+
+ 
+
+ 
