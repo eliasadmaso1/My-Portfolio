@@ -96,6 +96,7 @@ main {
 
   .job-1 {
     grid-area: job1;
+    
   }
 
   .job-2 {
@@ -111,6 +112,13 @@ main {
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
   }
+  .job-job-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
 }
 
 // Work/Projects

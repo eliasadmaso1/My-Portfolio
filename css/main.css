@@ -264,12 +264,19 @@ main {
     grid-template-columns: repeat(3, 1fr); } 
     .about-info .job-1 {
       width: 322%;   }
+
       
   }
 
 
 
+
+
 @media screen and (max-width: 768px) {
+
+  .text-secondary {
+    color: #eece1a;
+  font-size: 54px; }
   main {
     align-items: center;
     text-align: center; }
@@ -302,7 +309,31 @@ main {
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
+    .img-div img{
+      width: 600px;
+    }
+    .job-job-1 h3{
+      width: 255px;
+      margin-bottom: 25px;
+      color: #eece1a;
+      margin-top: 15px;
+
+    }
+    .job-job-1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
 @media screen and (max-width: 500px) {
+ 
+  .menu-branding .portrait {
+    width: 230px;
+    height: 200px;
+    background: url("../img/mobile.png");
+    border-radius: 50%;
+    border: solid 3px #eece1a; }
   main {
     padding: 2rem; }
     main #home h1 {
@@ -319,6 +350,7 @@ main {
       margin-top: 15px;
 
     }
+<<<<<<< HEAD
 
     .job-job-1{
       display: flex;
@@ -330,3 +362,13 @@ main {
  
 
  
+=======
+    .job-job-1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  
+   
+>>>>>>> 0787a32fe35db3442a33ed214fb4d6c8eed57d1e
