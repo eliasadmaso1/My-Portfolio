@@ -1,6 +1,5 @@
 
 
-
 .menu-btn {
   position: absolute;
   z-index: 3;
@@ -350,25 +349,32 @@ main {
       margin-top: 15px;
 
     }
-<<<<<<< HEAD
 
-    .job-job-1{
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      
-    } }
 
  
 
  
-=======
+
     .job-job-1{
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
     }
+    .contact{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .boxes div{
+      width: 70vw;
+      
+    }
+    .box div .text-secondary{
+      visibility: hidden;
+    }
+
+  }
   
    
->>>>>>> 0787a32fe35db3442a33ed214fb4d6c8eed57d1e
