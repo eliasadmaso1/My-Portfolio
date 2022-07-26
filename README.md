@@ -1,4 +1,4 @@
-Protfolio Project 
+My Protfolio
 
 Languages and tools - Html, Css, Sass, Javascript
 
