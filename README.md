@@ -1,6 +1,9 @@
-My Protfolio
+Portfolio website - Html, Css, Sass, GitHub.
 
-Languages and tools - Html, Css, Sass, Javascript
+- Use Html to display the pages.
+- Design the project with Css and Sass.
+
+Link - https://eliasadmaso1.github.io/My-Portfolio/index.html
 
 Home Page - 
 
